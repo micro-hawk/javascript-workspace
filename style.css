@@ -1,0 +1,73 @@
+
+.tab {
+    overflow: hidden;
+    background: rgb(36, 36, 36);
+    border: 1px solid #ccc;
+    text-align: center;
+
+}
+
+.tab button {
+    background: inherit;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 1rem;
+    /* float: left; */
+    text-align: center;
+    transition: .3s all ease;
+    color: #fff;
+}
+
+.tab button[tab-open="true"] {
+    background: rgb(255, 187, 0);
+    color: black;
+}
+
+.tab button:hover {
+    background: rgb(255, 187, 0);
+    color: #000;
+}
+
+.tab button:active {
+    background: rgb(0, 255, 213);
+}
+
+/* Now its time for tab content  */
+.tabcontent {
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+    margin: 10rem;
+
+    /* display: none; */
+}
+
+.tabcontent h1 {
+    font-size: 3rem;
+}
+.tabcontent p {
+    font-size: 1.4rem;
+}
+
+.tabcontent button {
+    font-size: 1.8rem;
+    border-radius: 30rem;
+    border: none;
+    outline :none;
+    padding: 1rem;
+    box-shadow: 1px 1px 2px 1px gray;
+    background: rgb(255, 187, 0);
+    float: right;
+    cursor: pointer;
+    transition: .3s all ease;
+    letter-spacing: .03rem;
+    text-transform: uppercase;
+}
+
+.tabcontent button:hover {
+    background: rgb(66, 56, 27);
+    color: white;
+}
