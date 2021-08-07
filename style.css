@@ -1,8 +1,12 @@
 
+
+#main {
+    margin: 10rem;
+    margin-top: 30rem;
+}
+
 .tab {
     overflow: hidden;
-    background: rgb(36, 36, 36);
-    border: 1px solid #ccc;
     text-align: center;
 
 }
@@ -11,14 +15,13 @@
     background: inherit;
     outline: none;
     border: none;
-    border-radius: 1rem;
+    border-radius: 30px;
     font-size: 1rem;
     cursor: pointer;
     padding: 1rem;
-    /* float: left; */
     text-align: center;
     transition: .3s all ease;
-    color: #fff;
+    color: #000;
 }
 
 .tab button[tab-open="true"] {
@@ -33,6 +36,8 @@
 
 .tab button:active {
     background: rgb(0, 255, 213);
+    outline: none;
+    border: none;
 }
 
 /* Now its time for tab content  */

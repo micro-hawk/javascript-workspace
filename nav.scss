@@ -1,0 +1,30 @@
+.nav {
+    height: 80px;
+    background-color: rgb(28, 28, 28);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__logo {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-size: 2rem;
+        padding: 1rem;
+    }   
+    & ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        
+        & li {
+            list-style: none;
+            font-size: 2rem;
+            & a {
+                color: #fff;
+            }
+        }
+
+    }
+
+}

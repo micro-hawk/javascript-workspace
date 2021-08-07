@@ -6,37 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tab Buttons</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./nav.css">
 </head>
 <body>
-    <div class="tab">
-        <!-- <button class="tab-links" onclick="openTab(event, 'articles')">Articles</button>
-        <button class="tab-links" onclick="openTab(event, 'discussion')">Discussion</button>
-        <button class="tab-links" onclick="openTab(event, 'faq')">FAQs</button> -->
-        <button class="tab-links" value="0" tab-open="true" >Articles</button>
-        <button class="tab-links" value="1" >Discussion</button>
-        <button class="tab-links" value="2" >FAQs</button>
+    <nav class="nav">
+        <div class="nav__logo">
+            NavLogo
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">XYZ</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
     
-    </div>
 
-    <!-- Tab content -->
-    <div class="tabcontent" id="articles">
-        <h1>Articles</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, facilis illo? Dolorum laboriosam minus culpa. Sapiente natus quibusdam neque dolorum! Magni cumque nemo fugit numquam. Aspernatur culpa quisquam necessitatibus iure.</p>
-        <button>Click here !!</button>
-    </div>
+    <section class="main" id="main">
+        <div class="tab">
+            <button class="tab-links" value="0" tab-open="true" >Articles</button>
+            <button class="tab-links" value="1" >Discussion</button>
+            <button class="tab-links" value="2" >FAQs</button>
+        
+        </div>
+    
+        <!-- Tab content -->
+        <div class="tabcontent" id="articles" style="display: block;">
+            <h1>Articles</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, facilis illo? Dolorum laboriosam minus culpa. Sapiente natus quibusdam neque dolorum! Magni cumque nemo fugit numquam. Aspernatur culpa quisquam necessitatibus iure.</p>
+            <button>Click here !!</button>
+        </div>
+    
+    
+        <div class="tabcontent" id="discussion" style="display: none;">
+            <h1>Discussion Pages.</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus amet aut suscipit quisquam delectus numquam animi! Est obcaecati nisi quia ad, aspernatur architecto recusandae aliquam tenetur! Maxime dolor ad nam!</p>
+            <button>Fuck You</button>
+        </div>
+    
+        <div class="tabcontent" id="faq" style="display: none;">
+            <h1>FAQs</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum officiis, magni asperiores quis velit accusamus nostrum totam molestiae nisi exercitationem natus assumenda, eaque facilis voluptates aliquid iste animi expedita atque?</p>
+            <button>IdontKNOW</button>
+        </div>
 
+    </section>
 
-    <div class="tabcontent" id="discussion">
-        <h1>Hello this is Discussion pages.</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus amet aut suscipit quisquam delectus numquam animi! Est obcaecati nisi quia ad, aspernatur architecto recusandae aliquam tenetur! Maxime dolor ad nam!</p>
-        <button>Fuck You</button>
-    </div>
-
-    <div class="tabcontent" id="faq">
-        <h1>Hewlo this is FQAS</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum officiis, magni asperiores quis velit accusamus nostrum totam molestiae nisi exercitationem natus assumenda, eaque facilis voluptates aliquid iste animi expedita atque?</p>
-        <button>IdontKNOW</button>
-    </div>
 </body>
 <script src="./script.js"></script>
 </html>
