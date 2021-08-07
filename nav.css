@@ -1,5 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 .nav {
-  height: 80px;
+  height: 60px;
   background-color: #1c1c1c;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10,39 +17,76 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 0px 50px 0px 100px;
+}
+
+.nav .menu-btn i {
+  font-size: 1.3rem;
+  color: white;
+  cursor: pointer;
+  display: none;
 }
 
 .nav__logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: #fff;
   font-size: 2rem;
-  padding: 1rem;
+  font-weight: 600;
 }
 
 .nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   text-decoration: none;
+  list-style: none;
 }
 
 .nav ul li {
-  list-style: none;
-  font-size: 2rem;
+  margin: 0 5px;
 }
 
 .nav ul li a {
   color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: .05rem;
+  text-decoration: none;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+.nav ul li a.active, .nav ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+@media (max-width: 940px) {
+  .nav .menu-btn i {
+    display: block;
+  }
+  .nav ul {
+    position: fixed;
+    display: block;
+    top: 60px;
+    left: -100%;
+    background-color: #1c1c1c;
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    -webkit-transition: .3s all ease;
+    transition: .3s all ease;
+  }
+  .nav ul li {
+    margin: 40px 0;
+  }
+  .nav ul li a {
+    font-size: 2rem;
+  }
+  .nav ul li a.active, .nav ul li a:hover {
+    background: none;
+    color: cyan;
+  }
 }
 /*# sourceMappingURL=nav.css.map */
