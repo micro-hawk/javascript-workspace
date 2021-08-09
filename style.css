@@ -1,6 +1,6 @@
 
 #main {
-    margin: 10rem;
+    margin-top: 8rem;
 }
 
 .tab {
@@ -72,4 +72,10 @@
 .tabcontent button:hover {
     background: rgb(66, 56, 27);
     color: white;
+}
+
+
+.section-line {
+    border-bottom: 2px solid rgb(255, 187, 0);
+    margin: 1rem 5rem;
 }
