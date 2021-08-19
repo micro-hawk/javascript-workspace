@@ -31,10 +31,37 @@
 
     <div class="popup">
       <div class="popup-box">
-
         <div class="popup-box-content">
-          <h1>Hello World</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos laborum molestiae dolorem incidunt, ad modi nesciunt ullam fugiat eius maiores cumque illo cum dolor eaque eum iusto vel a libero.</p>
+          <h1 class="popup-title">Start Your FlexBuild Journey</h1>
+        
+          <form id="popup-contact-form" action="" method="post">
+            <div class="row-1">
+              <div class="field">
+                  <label><i class="fas fa-user"></i></label>
+                  <input type="text" placeholder="Name" required autofocus>
+                </div>
+                <div class="field">
+                  <label><i class="fas fa-phone-alt"></i></label>
+                  <input type="tel" placeholder="Mobile Number" required>
+                </div>
+            </div>
+
+            <div class="field">
+              <label><i class="fas fa-envelope"></i></label>
+              <input type="email" required placeholder="Email"> 
+            </div>
+            <div class="field">
+              <label><i class="fas fa-building"></i></label>
+              <input placeholder="Company Name" required type="text">
+            </div>
+            <div class="field text-field">
+              <textarea required placeholder="Message"></textarea>
+            </div>
+            <div class="submit-btn">
+              <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </div>
+          </form>
+        
         </div>  
         <div class="popup-close-btn">
           <i class="fas fa-times"></i>
