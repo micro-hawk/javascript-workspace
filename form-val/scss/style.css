@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #ebe2e7;
+  font-family: 'Comfortaa', cursive;
+}
+
+#form {
+  margin: 10px auto;
+  padding: 0 80px;
+}
+
+.container .company-details {
+  text-align: center;
+}
+
+.container .company-details > h1 {
+  font-size: 2rem;
+  color: #231942;
+}
+
+.container .company-details > p {
+  color: #5E548E;
+}
+
+.container .candidate-details {
+  margin-top: 60px;
+  font-weight: 300;
+}
+
+.container .candidate-details > span {
+  font-weight: bold;
+}
+
+.container .myform-candidate {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+
+.container .myform-candidate .field {
+  padding: 10px;
+  margin: 0 20px;
+}
+
+.container .myform-candidate .field label, .container .myform-candidate .field input, .container .myform-candidate .field select {
+  font-size: 1.3rem;
+}
+
+.container .myform-candidate .field label {
+  margin-right: 10px;
+}
+
+.container .myform-candidate .field input {
+  width: 100%;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.container .myform-candidate .field select {
+  padding: 10px;
+}
+
+.container .myform-candidate .submit-field > a {
+  text-decoration: none;
+  outline: none;
+  font-size: 1.2rem;
+  background-color: #231942;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+.container .myform-candidate .submit-field > a:hover {
+  background-color: #5E548E;
+}
+
+.container .wrap-hide {
+  display: none;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
+/*# sourceMappingURL=style.css.map */

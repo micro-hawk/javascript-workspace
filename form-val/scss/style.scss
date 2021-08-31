@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap');
+
+$brand-color : #231942;
+$primary-color: #5E548E;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ebe2e7;
+    font-family: 'Comfortaa', cursive;
+}
+#form {
+    margin: 10px auto;
+    padding: 0 80px;
+}
+
+.container {
+    & .company-details {        
+        text-align: center;
+        & > h1 {
+            font-size: 2rem;
+            color: $brand-color;
+        }
+        & > p {
+            color: $primary-color;
+
+        }
+    }
+    & .candidate-details {
+        margin-top: 60px;
+        font-weight: 300;
+        & > span {
+            font-weight: bold;
+        }
+    }
+
+    & .myform-candidate {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        & .field {
+            padding: 10px;
+            margin: 0 20px;
+            & label, input, select
+             {
+                font-size: 1.3rem;
+            }
+            & label {
+                margin-right: 10px;
+            }
+            & input {
+                width: 100%;
+                padding: 10px;
+                margin-left: 20px;
+            }
+            & select { 
+                padding: 10px;
+            }
+        }
+
+        & .submit-field {
+            & > a {
+                text-decoration: none;
+                outline: none;
+                font-size: 1.2rem;
+                background-color: $brand-color;
+                color: white;
+                padding: 10px;
+                border-radius: 4px;
+                transition: .3s all ease;
+                &:hover {
+                    background-color: $primary-color;
+                }
+            }
+        }
+    }
+
+
+
+    // ------------------timeline studens --------------------
+    .wrap-hide {
+        display: none;
+        transition: .3s all ease;
+    }
+}
