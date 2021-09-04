@@ -11,7 +11,8 @@ app.get('/', (req, res) => {
 app.post('/', (req, res) => {
     let n1 = Number(req.body.num1)
     let n2 = Number(req.body.num2)
-    res.send(n1+n2)
+    let r = n1+n2
+    res.send(r.toString())
 })
 
 
