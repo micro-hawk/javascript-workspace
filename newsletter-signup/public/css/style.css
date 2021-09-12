@@ -1,0 +1,76 @@
+#hero {
+  margin: 20px auto;
+  padding: 0px 80px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container .myform {
+  width: 600px;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 40px;
+  -webkit-box-shadow: #00eeff 0px 0px 0px 2px inset, white 10px -10px 0px -3px, #1fc11b 10px -10px, white 20px -20px 0px -3px, #ffd913 20px -20px, white 30px -30px 0px -3px, #ff9c55 30px -30px, white 40px -40px 0px -3px, #ff5555 40px -40px;
+          box-shadow: #00eeff 0px 0px 0px 2px inset, white 10px -10px 0px -3px, #1fc11b 10px -10px, white 20px -20px 0px -3px, #ffd913 20px -20px, white 30px -30px 0px -3px, #ff9c55 30px -30px, white 40px -40px 0px -3px, #ff5555 40px -40px;
+}
+
+.container .myform .signup-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .myform .signup-form input {
+  font-size: 2rem;
+  margin: 10px;
+}
+
+.container .myform .signup-form input:focus {
+  outline: none;
+  -webkit-box-shadow: rgba(156, 215, 255, 0.1) 0px 0px 5px 0px, rgba(156, 215, 255, 0.1) 0px 0px 1px 0px;
+          box-shadow: rgba(156, 215, 255, 0.1) 0px 0px 5px 0px, rgba(156, 215, 255, 0.1) 0px 0px 1px 0px;
+}
+
+.container .myform .signup-form > button {
+  cursor: pointer;
+  background-color: #301ce7;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  padding: 10px;
+  border-radius: 4px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+          box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+  outline: none;
+  border: none;
+}
+
+.container .myform .signup-form > button:hover {
+  background-color: #073366;
+}
+/*# sourceMappingURL=style.css.map */
