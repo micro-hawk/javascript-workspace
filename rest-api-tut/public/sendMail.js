@@ -8,8 +8,6 @@ const transporter = nodemailer.createTransport({
   auth: {
     // user: process.env.USER,
     // pass: process.env.PASS
-    user: "microhawkx@gmail.com",
-    pass: "5Sacqur0071Hawk"
 }
 });
 
