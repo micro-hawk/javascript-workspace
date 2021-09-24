@@ -3,7 +3,7 @@ const mail = {}
 
 mail.fetchMail = (body) => {
     const mailConfig = {
-        to: 'mauryas367@gmail.com',
+        to: 'dasvikas0071@gmail.com',
         subject: 'FlexBuild INFO',
         text: JSON.stringify(body)   
     }

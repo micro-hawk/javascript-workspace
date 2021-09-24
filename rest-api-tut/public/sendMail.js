@@ -8,13 +8,13 @@ const transporter = nodemailer.createTransport({
   auth: {
     // user: process.env.USER,
     // pass: process.env.PASS
-    user: "xyz@gmail.com",
-    pass: "XXXXXXXXX"
+    user: "microhawkx@gmail.com",
+    pass: "5Sacqur0071Hawk"
 }
 });
 
 const mailOptions = {
-  to: 'hello@gmail.com',
+  to: 'dasvikas0071@gmail.com',
   subject: '!IMPORTANT',
   text: `Yeahhh, you're query has been sent to FLEXBUILD `    
 };

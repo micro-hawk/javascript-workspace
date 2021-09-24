@@ -2,7 +2,7 @@ const user = {}
 
 user.fetchUserDetailById = (uid) => {
   return {
-    name: 'Dr shubham',
+    name: 'Vikas Das',
     id: uid
   }
 }
