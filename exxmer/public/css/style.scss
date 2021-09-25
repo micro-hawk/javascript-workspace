@@ -1,0 +1,97 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ 
+ .nav {
+     height: 60px;
+     margin: 0 0 40px 0;
+     background-color: rgb(3, 22, 61);
+     color: white;
+     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+     &__logo {
+         font-size: 2.3rem;
+     }
+
+     & #search-box {
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+         font-size: 1rem;
+         cursor: pointer;
+         & input {
+             padding: 10px;
+             outline: none;
+             box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+         }
+         & i {
+             padding-left: 15px;
+             font-size: 1.5rem;
+             &:hover { 
+                 color: green;
+             }
+         }
+     }
+ }
+
+
+ ////////////CARDS//////////////
+ .card { 
+     &-container {
+         margin: 10px 0;
+         padding: 0 80px;
+
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+         flex-wrap: wrap;
+     }
+     &-box { 
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+        //  width: 300px;
+         font-size: 1rem;
+         line-height: 30px;
+         padding: 100px;
+         margin: 8px;
+         border-radius: 8px;
+         cursor: pointer;
+         background-color: rgb(238, 238, 238);
+         box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+         &:hover {
+            box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+         }
+     }
+ }
+
+
+ ///////FOOTER //////@at-root
+
+ #footer {
+     height: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 50px 0 0 0;
+     background-color: rgb(3, 22, 61);
+     color: white;
+     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+     & a {
+         text-decoration: none;
+         color: white;
+         &:hover {
+             color: green;
+         }
+     }
+ }

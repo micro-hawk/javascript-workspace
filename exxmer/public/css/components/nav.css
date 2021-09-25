@@ -1,0 +1,18 @@
+#nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav {
+  height: 60px;
+  background-color: #03163d;
+  color: white;
+}
+/*# sourceMappingURL=nav.css.map */
