@@ -7,7 +7,21 @@
     <title>Template</title>
 </head>
 <body>
-    <h1>Hi Vikas!</h1>
-    <h3>It is a <%= kindOfDay %> </h3>
+    <h1><%= kindOfDay %> </h1>
+    <ul>
+        <li>Buy Food</li>
+        <li>wash Food</li>
+        <li>make Food</li>
+        <li>eat Food</li>
+        <!-- <li> <%= newListItem %> </li> -->
+
+        <% for(let i=0; i < items.length; i++) { %> 
+           <li> <%= items[i] %> </li>
+           <% } %>
+    </ul>
+    <form class="myform" action="/" method="POST">
+        <input type="text" name="listInput">
+        <button name="submitBtn" type="submit">Add</button>
+    </form>
 </body>
 </html>
