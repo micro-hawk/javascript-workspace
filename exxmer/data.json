@@ -1,0 +1,37 @@
+[
+    {
+      "name": "John",
+      "price": "13",
+      "rating": "4"
+    },
+    {
+      "name": "obama",
+      "price": "14",
+      "rating": "4"
+    },
+    {
+      "name": "Kojkl",
+      "price": "13",
+      "rating": "3"
+    },
+    {
+      "name": "Hoichi",
+      "price": "130",
+      "rating": "4"
+    },
+    {
+      "name": "Joker",
+      "price": "7",
+      "rating": "1"
+    },
+    {
+      "name": "Batman",
+      "price": "145",
+      "rating": "4"
+    },
+    {
+      "name": "Brew",
+      "price": "24",
+      "rating": "3"
+    }
+  ]
