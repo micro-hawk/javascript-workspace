@@ -1,55 +1,21 @@
 <div class="card-container">
-    <div class="card-box">
-        <h3>NAME</h3>
-        <h3>Price</h3>
-        <h3>Rating</h3>
-    </div>
-
-    <div class="card-box">
-        <h3>NAME</h3>
-        <h3>Price</h3>
-        <h3>Rating</h3>
-    </div>
-
-    <div class="card-box">
-        <h3>NAME</h3>
-        <h3>Price</h3>
-        <h3>Rating</h3>
-    </div>
-
-    <div class="card-box">
-        <h3>NAME</h3>
-        <h3>Price</h3>
-        <h3>Rating</h3>
-    </div>
-
-    <div class="card-box">
-        <h3>NAME</h3>
-        <h3>Price</h3>
-        <h3>Rating</h3>
-    </div>
-
-    <div class="card-box">
-        <h3>NAME</h3>
-        <h3>Price</h3>
-        <h3>Rating</h3>
-    </div>
-
-    <div class="card-box">
-        <h3>NAME</h3>
-        <h3>Price</h3>
-        <h3>Rating</h3>
-    </div>
-
-    <div class="card-box">
-        <h3>NAME</h3>
-        <h3>Price</h3>
-        <h3>Rating</h3>
-    </div>
-
-    <div class="card-box">
-        <h3>NAME</h3>
-        <h3>Price</h3>
-        <h3>Rating</h3>
-    </div>
+    <ul class="listing">
+    <% for(let i=0; i < data.length; i++) { %>
+            <li class="product">
+              <a class="img-wrapper" href="#">
+                <img src= <%= data[i].images %> alt="Blue running shoe" />
+              </a>
+              
+              <div class="info">
+                <div class="title"> <%=data[i].name %> </div>
+                <div class="price">$<%= data[i].price %></div>
+              </div>
+              
+              <div class="actions-wrapper">
+                <a href="#" class="add-btn wishlist">Wishlist</a>
+                <a href="#" class="add-btn cart">Cart</a>
+              </div>
+            </li>
+        <% } %>
+    </ul>
 </div>

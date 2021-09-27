@@ -1,9 +1,10 @@
-// import 'data.json' 
+const dataJson = require('./data.json')
 const express = require('express')
 const app = express()
 
 app.set('views', './views')
 app.set('view engine', 'ejs')
+
 
 //Static Files
 app.use(express.static('public'))
@@ -12,9 +13,14 @@ app.use('/js', express.static(__dirname + 'public/js'))
 
 
 app.get('/', (req, res) => {
-    res.render('home')
+    res.render('home', {
+        data: dataJson
+    })
 })
 
+app.post('/', (req, res) => {
+
+})
 app.listen(3000, () => {
     console.log('Server is running on port 3000')
 })

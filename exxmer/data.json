@@ -2,36 +2,37 @@
     {
       "name": "John",
       "price": "13",
-      "rating": "4"
+      "rating": "4",
+      "images" : "https://www.venussteps.com/images/product/OEC07-Z-3M_BLUE/OEC07-Z-3M_BLUE_4.jpg"
     },
     {
-      "name": "obama",
+      "name": "Obama",
       "price": "14",
-      "rating": "4"
+      "rating": "4",
+      "images" : "https://www.venussteps.com/images/product/OEC07-Z-3M_BLUE/OEC07-Z-3M_BLUE_4.jpg"
     },
     {
       "name": "Kojkl",
       "price": "13",
-      "rating": "3"
+      "rating": "3",
+      "images" : "https://www.venussteps.com/images/product/OEC07-Z-3M_BLUE/OEC07-Z-3M_BLUE_4.jpg"
     },
     {
       "name": "Hoichi",
       "price": "130",
-      "rating": "4"
+      "rating": "4",
+      "images" : "https://www.venussteps.com/images/product/OEC07-Z-3M_BLUE/OEC07-Z-3M_BLUE_4.jpg"
     },
     {
       "name": "Joker",
       "price": "7",
-      "rating": "1"
+      "rating": "1",
+      "images" : "https://www.venussteps.com/images/product/OEC07-Z-3M_BLUE/OEC07-Z-3M_BLUE_4.jpg"
     },
     {
       "name": "Batman",
       "price": "145",
-      "rating": "4"
-    },
-    {
-      "name": "Brew",
-      "price": "24",
-      "rating": "3"
+      "rating": "4",
+      "images" : "https://www.venussteps.com/images/product/OEC07-Z-3M_BLUE/OEC07-Z-3M_BLUE_4.jpg"
     }
   ]
