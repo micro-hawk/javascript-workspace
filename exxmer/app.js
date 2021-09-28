@@ -1,28 +1,22 @@
-const dataJson = require('./data.json')
 const express = require('express')
-const app = express()
+const mainRouter = require('./router/mainRouter')
 
+const app = express()
+const appPort = 3000
 app.set('views', './views')
 app.set('view engine', 'ejs')
-
+app.use(express.json())
+app.use(express.urlencoded({extended:true}))
 
 //Static Files
 app.use(express.static('public'))
 app.use('/css', express.static(__dirname + 'public/css'))
 app.use('/js', express.static(__dirname + 'public/js')) 
 
+app.use(mainRouter)
 
-app.get('/', (req, res) => {
-    res.render('home', {
-        data: dataJson
-    })
-})
-
-app.post('/', (req, res) => {
-
-})
-app.listen(3000, () => {
-    console.log('Server is running on port 3000')
+app.listen(appPort, () => {
+    console.log(`Server is running on port ${appPort}`)
 })
 
 
